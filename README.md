@@ -1,10 +1,9 @@
 ```markdown
 # DTM批量验证工具
 
-![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+本项目旨在无法采用AutoCAD和南方CASS专业级数字地形模型验证工具时采用，支持批量处理Excel测量数据，自动计算工程土方量并生成三维可视化报告。
 
-专业级数字地形模型验证工具，支持批量处理Excel测量数据，自动计算工程土方量并生成三维可视化报告。
+如果需要需要精确度较高的软件，需要聘请专业测绘师及购买相关软件如AutoCAD和南方CASS进行使用
 
 ## 📥 快速开始
 
@@ -62,13 +61,6 @@ graph TD
 ```
 V = Σ(三角形投影面积 × 平均高差)
 ```
-
-## 📈 性能基准
-| 数据规模   | 处理时间 | 内存占用 |
-|------------|----------|----------|
-| 500点      | 1.2s     | 120MB    |
-| 5000点     | 8.7s     | 450MB    |
-| 50000点    | 72s      | 2.1GB    |
 
 ## 📜 许可证
 本项目采用 [MIT License](LICENSE)，允许商业用途，但需保留版权声明。
